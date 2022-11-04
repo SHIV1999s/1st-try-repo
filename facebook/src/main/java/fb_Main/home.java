@@ -9,7 +9,7 @@ public class home {
 	@FindBy(xpath="//div[@aria-label=\"More options\"]")private WebElement navigate_to_log;
 	@FindBy(xpath="//span[text()='Log Out']")private WebElement logout;
 	@FindBy(xpath="//span[text()='Log Out']")private WebElement final_logout;
-
+//thisis pull request
 	
 	public home(WebDriver driver) {
 		PageFactory.initElements(driver, this);}
